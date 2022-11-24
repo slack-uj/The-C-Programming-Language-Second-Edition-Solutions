@@ -5,7 +5,7 @@
  */
 
 #include<stdio.h>
-#include"/home/slackuj/Documents/programming/c/mylibrary/mychar.h"
+#include"../mylibrary/mychar.h" /*header file containing reverse function*/
 #define abs(n) (n > 0 ? n : -n)
 
 void itob(int n,char s[],int b)
